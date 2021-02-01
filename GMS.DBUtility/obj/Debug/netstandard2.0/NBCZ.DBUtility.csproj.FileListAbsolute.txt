@@ -1,0 +1,13 @@
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\bin\Debug\netstandard2.0\NBCZ.DBUtility.deps.json
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\bin\Debug\netstandard2.0\NBCZ.DBUtility.dll
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\bin\Debug\netstandard2.0\NBCZ.DBUtility.pdb
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\bin\Debug\netstandard2.0\NBCZ.Common.dll
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\bin\Debug\netstandard2.0\NBCZ.Common.pdb
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\bin\Debug\netstandard2.0\NBCZ.Common.dll.config
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.csprojAssemblyReference.cache
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.csproj.CoreCompileInputs.cache
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.AssemblyInfoInputs.cache
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.AssemblyInfo.cs
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.csproj.CopyComplete
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.dll
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.DBUtility\obj\Debug\netstandard2.0\NBCZ.DBUtility.pdb

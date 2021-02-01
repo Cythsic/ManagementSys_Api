@@ -1,0 +1,10 @@
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\bin\Debug\netstandard2.0\NBCZ.Common.dll.config
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\bin\Debug\netstandard2.0\NBCZ.Common.deps.json
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\bin\Debug\netstandard2.0\NBCZ.Common.dll
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\bin\Debug\netstandard2.0\NBCZ.Common.pdb
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\obj\Debug\netstandard2.0\NBCZ.Common.csproj.CoreCompileInputs.cache
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\obj\Debug\netstandard2.0\NBCZ.Common.AssemblyInfoInputs.cache
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\obj\Debug\netstandard2.0\NBCZ.Common.AssemblyInfo.cs
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\obj\Debug\netstandard2.0\NBCZ.Common.dll
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\obj\Debug\netstandard2.0\NBCZ.Common.pdb
+E:\编程\Github\NBCZ_Admin_NetCore-master\NBCZ_Admin_NetCore-master\NBCZ.Common\obj\Debug\netstandard2.0\NBCZ.Common.csprojAssemblyReference.cache

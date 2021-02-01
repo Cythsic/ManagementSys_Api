@@ -1,0 +1,203 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GMS.Api</name>
+    </assembly>
+    <members>
+        <member name="T:GMS.Api.WebApiExceptionAttribute">
+            <summary>
+            异常捕获
+            </summary>
+        </member>
+        <member name="T:GMS.Api.Controllers.AuthroizeController">
+            <summary>
+            认证
+            </summary>
+        </member>
+        <member name="M:GMS.Api.Controllers.AuthroizeController.Post(GMS.Api.LoginViewModel)">
+            <summary>
+            登录获取token
+            </summary>
+            <param name="loginViewModel">登录实体信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.GetChildList(System.String)">
+            <summary>
+            获取子部门列表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.Add(GMS.Model.Pub_Department)">
+            <summary>
+            添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.Edit(GMS.Model.Pub_Department)">
+            <summary>
+            编辑
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.Delete(System.String)">
+            <summary>
+            删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.GetChildList(System.String)">
+            <summary>
+            获取子权限列表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.Add(GMS.Model.Pub_Function)">
+            <summary>
+            添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.Edit(GMS.Model.Pub_Function)">
+            <summary>
+            编辑
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.Delete(System.String)">
+            <summary>
+            删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.GetPage(GMS.Api.Model.Request.PageDataReq)">
+            <summary>
+            获取角色分页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.Add(GMS.Model.Pub_Role)">
+            <summary>
+            添加角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.Edit(GMS.Model.Pub_Role)">
+            <summary>
+            编辑角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.Delete(System.Int64)">
+            <summary>
+            删除角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.GetFunctions(System.String)">
+            <summary>
+            获取角色权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.SaveFunctions(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            保存角色权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.GetPage(GMS.Api.Model.Request.PageDataReq)">
+            <summary>
+            获取用户分页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.Add(GMS.Model.V_PubUser_Dept)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.Edit(GMS.Model.V_PubUser_Dept)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.Delete(System.Int64)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.GetFunctions(System.String)">
+            <summary>
+            获取用户权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.SaveFunctions(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            保存用户权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:GMS.Api.JwtSeetings.Issuer">
+            <summary>
+            谁颁发的jwt
+            </summary>
+        </member>
+        <member name="P:GMS.Api.JwtSeetings.Audience">
+            <summary>
+            谁使用这个jwt
+            </summary>
+        </member>
+        <member name="P:GMS.Api.JwtSeetings.SecretKey">
+            <summary>
+            secret是保存在服务器端的，jwt的签发生成也是在服务器端的，secret就是用来进行jwt的签发和jwt的验证，
+            所以，它就是你服务端的私钥，在任何场景都不应该流露出去。一旦客户端得知这个secret, 那就意味着客户端是可以自我签发jwt了
+            通过jwt header中声明的加密方式进行加盐secret组合加密，然后就构成了jwt的第三部分
+            </summary>
+        </member>
+        <member name="P:GMS.Api.LoginViewModel.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GMS.Api.LoginViewModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:GMS.Api.ResponseObj`1.Code">
+            <summary>
+            0请求数据错误 1 成功 -1失败
+            </summary>
+        </member>
+        <member name="T:GMS.Api.QueryHelper">
+            <summary>
+            搜索条件
+            </summary>
+        </member>
+        <member name="M:GMS.Api.QueryHelper.GetWhereStr(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取搜索query
+            </summary>
+        </member>
+        <member name="M:GMS.Api.QueryHelper.SqlFilter(System.String)">
+            <summary>
+            过滤危险的字符（SQL注入）
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Startup.JWTConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            使用 Microsoft.AspNetCore.Authentication.JwtBearer
+            </summary>
+            <param name="services"></param>
+        </member>
+        <!-- 对于成员“T:AuthTokenHeaderParameter”忽略有格式错误的 XML 注释 -->
+    </members>
+</doc>

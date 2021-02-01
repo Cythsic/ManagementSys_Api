@@ -1,0 +1,32 @@
+
+2021-01-05 15:09:41,612 [8] ERROR /api/BusRoute/AddImgInfo - path:/api/BusRoute/AddImgInfo,method:POST,data:{"img":"http://localhost:8916/BusRoutePic/0105150902_所需字段.PNG"}
+ error:The method or operation is not implemented.
+ stack:   at GMS.BLL.BusRouteBLL.Insert(BusDivisions model) in D:\code2\picture\gms_admin_netcore\GMS.BLL\T4.DapperExt\BusRouteBLL.cs:line 23
+   at GMS.Api.Controllers.BusRouteController.AddImgInfo(BusDivisions model) in D:\code2\picture\gms_admin_netcore\GMS.Api\Controllers\BusRouteController.cs:line 264
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+
+2021-01-05 15:10:42,494 [9] ERROR /api/BusRoute/AddImgInfo - path:/api/BusRoute/AddImgInfo,method:POST,data:{"img":"http://localhost:8916/BusRoutePic/0105150902_所需字段.PNG"}
+ error:The method or operation is not implemented.
+ stack:   at GMS.BLL.BusRouteBLL.Insert(BusDivisions model) in D:\code2\picture\gms_admin_netcore\GMS.BLL\T4.DapperExt\BusRouteBLL.cs:line 23
+   at GMS.Api.Controllers.BusRouteController.AddImgInfo(BusDivisions model) in D:\code2\picture\gms_admin_netcore\GMS.Api\Controllers\BusRouteController.cs:line 264
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)

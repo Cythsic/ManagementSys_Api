@@ -1,0 +1,79 @@
+
+2020-12-24 13:08:27,088 [32] ERROR /api/CheckIn/Add - path:/api/CheckIn/Add,method:POST,data:{"isUsed":"空闲中","checkInTime":"2020-12-15T16:00:00.000Z","dimissionTime":"2020-12-23T16:00:00.000Z","roomId":"1","roomNo":"1","roomUse":"1","userName":"1","remark":"1","orgCode":"1","userId":"1","department":"DSUB3","sex":"男","position":"普工","costCenter":"1","phoneNumber":"1","roomType":"1"}
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.CheckInController.Add(CheckIn model) in E:\编程\Github\GMS_Admin_NetCore\GMS.Api\Controllers\CheckInController.cs:line 74
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-12-24 13:13:27,138 [37] ERROR /api/CheckIn/Add - path:/api/CheckIn/Add,method:POST,data:{"isUsed":"空闲中","checkInTime":"2020-12-23T16:00:00.000Z","dimissionTime":"2020-12-30T16:00:00.000Z","roomId":"1","roomNo":"1","roomUse":"1","userName":"1","remark":"1","orgCode":"1","userId":"1","department":"DSUB3","sex":"男","position":"高级技工","costCenter":"1","phoneNumber":"11","roomType":"1"}
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.CheckInController.Add(CheckIn model) in E:\编程\Github\GMS_Admin_NetCore\GMS.Api\Controllers\CheckInController.cs:line 74
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+
+2020-12-24 13:14:39,325 [40] ERROR /api/CheckIn/Add - path:/api/CheckIn/Add,method:POST,data:{"isUsed":"空闲中","checkInTime":"2020-12-23T16:00:00.000Z","dimissionTime":"2020-12-30T16:00:00.000Z","roomId":"1","roomNo":"1","roomUse":"1","userName":"1","remark":"1","orgCode":"1","userId":"1","department":"DSUB3","sex":"男","position":"普工","costCenter":"1","phoneNumber":"1","roomType":"1"}
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.CheckInController.Add(CheckIn model) in E:\编程\Github\GMS_Admin_NetCore\GMS.Api\Controllers\CheckInController.cs:line 74
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+
+2020-12-24 18:17:46,524 [32] ERROR /api/CheckIn/Import - path:/api/CheckIn/Import,method:POST,data:[{"roomId":"508-1","roomNo":"3南508","roomType":"4人间","roomUse":"技工间","userId":"07000492","userName":"王杰","department":"SEBU","sex":"男","position":"技工","costCenter":"C9359JG","checkInTime":"2019-7-9","phoneNumber":"","orgCode":"","isUsed":"使用中","dimissionTime":"","remark":""},{"roomId":"502-1","roomNo":"3南502","roomType":"4人间","roomUse":"技工间","userId":"07000501","userName":"邱嫚","department":"SEBU","sex":"女","position":"技工","costCenter":"C9357JG","checkInTime":"7/29/20","isUsed":"使用中","remark":"特殊用房不算入住率"},{"roomId":"502-2","roomNo":"3南502","roomType":"4人间","roomUse":"技工间","isUsed":"空闲中"},{"roomId":"502-3","roomNo":"3南502","roomType":"4人间","roomUse":"技工间","isUsed":"空闲中"},{"roomId":"502-4","roomNo":"3南502","roomType":"4人间","roomUse":"技工间","isUsed":"空闲中"}]
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.GMSUser.get_UserName() in E:\编程\Github\GMS_Admin_NetCore\GMS.Api\GMSUser.cs:line 37
+   at GMS.Api.Controllers.CheckInController.<>c__DisplayClass5_0.<Import>b__0(CheckIn p) in E:\编程\Github\GMS_Admin_NetCore\GMS.Api\Controllers\CheckInController.cs:line 105
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at GMS.Api.Controllers.CheckInController.Import(List`1 modelList) in E:\编程\Github\GMS_Admin_NetCore\GMS.Api\Controllers\CheckInController.cs:line 102
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)

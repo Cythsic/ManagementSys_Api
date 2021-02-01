@@ -1,0 +1,102 @@
+
+2020-11-10 09:36:14,877 [4] ERROR /api/AgentInputs/Import - path:/api/AgentInputs/Import,method:POST,data:[{"CardID":"120103199908266726","Name":"赵津可","Sex":"女","Nation":"汉","Birthday":"1999-8-26","HomeAddress":"天津市河西区宾馆南道海建里3门404号","Authority":"天津市公安局河西分局","ValidDate":"2020-9-11","ExpirationDate":"2030-9-11","Phone":"18526293826","Marriage":"未婚","Handedness":"右手","HouseholdType":"市内城镇","Diploma":"本科","Major":"计算机","EduStart":"17-Sep","EduEnd":"21-Jun","School":"天津师范大学","HomeContact":"赵津可","PostalCode":"300061","HomeTel":"18526293826","EmergentContact":"赵津可","EmergentPhone":"18526293826","PoliticalStatus":"群众","ContractExpDate":"21-Jan","BatchCode":"OA0001","AgentID":"null","CreateDate":"null","CreateUser":"null","ModifyDate":"null","ModifyUser":"null","isStop":"null"}]
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.AgentInputsController.Import(List`1 modelList) in C:\Users\jinkezhao.GWKF\Desktop\gms-web-admin-electron-vue-master\gms_admin_netcore\GMS.Api\Controllers\AgentInputsController.cs:line 78
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+
+2020-11-10 09:37:21,775 [13] ERROR /api/AgentInputs/Import - path:/api/AgentInputs/Import,method:POST,data:[{"CardID":"120103199908266726","Name":"赵津可","Sex":"女","Nation":"汉","Birthday":"1999-8-26","HomeAddress":"天津市河西区宾馆南道海建里3门404号","Authority":"天津市公安局河西分局","ValidDate":"2020-9-11","ExpirationDate":"2030-9-11","Phone":"18526293826","Marriage":"未婚","Handedness":"右手","HouseholdType":"市内城镇","Diploma":"本科","Major":"计算机","EduStart":"17-Sep","EduEnd":"21-Jun","School":"天津师范大学","HomeContact":"赵津可","PostalCode":"300061","HomeTel":"18526293826","EmergentContact":"赵津可","EmergentPhone":"18526293826","PoliticalStatus":"群众","ContractExpDate":"21-Jan","BatchCode":"OA0001","AgentID":"null","CreateDate":"null","CreateUser":"null","ModifyDate":"null","ModifyUser":"null","isStop":"null"}]
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.AgentInputsController.Import(List`1 modelList) in C:\Users\jinkezhao.GWKF\Desktop\gms-web-admin-electron-vue-master\gms_admin_netcore\GMS.Api\Controllers\AgentInputsController.cs:line 78
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+
+2020-11-10 10:18:10,254 [8] ERROR /api/AgentInputs/Import - path:/api/AgentInputs/Import,method:POST,data:[{"CardID":"120103199908266726","Name":"赵津可","Sex":"女","Nation":"汉","Birthday":"1999-8-26","HomeAddress":"天津市河西区宾馆南道海建里3门404号","Authority":"天津市公安局河西分局","ValidDate":"2020-9-11","ExpirationDate":"2030-9-11","Phone":"18526293826","Marriage":"未婚","Handedness":"右手","HouseholdType":"市内城镇","Diploma":"本科","Major":"计算机","EduStart":"17-Sep","EduEnd":"21-Jun","School":"天津师范大学","HomeContact":"赵津可","PostalCode":"300061","HomeTel":"18526293826","EmergentContact":"赵津可","EmergentPhone":"18526293826","PoliticalStatus":"群众","ContractExpDate":"21-Jan","BatchCode":"OA0001","AgentID":"null","CreateDate":"null","CreateUser":"null","ModifyDate":"null","ModifyUser":"null","isStop":"null"}]
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.AgentInputsController.Import(List`1 modelList) in C:\Users\jinkezhao.GWKF\Desktop\gms-web-admin-electron-vue-master\gms_admin_netcore\GMS.Api\Controllers\AgentInputsController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-10 10:28:59,235 [28] ERROR /api/AgentInputs/Import - path:/api/AgentInputs/Import,method:POST,data:[{"CardID":"120103199908266726","Name":"赵津可","Sex":"女","Nation":"汉","Birthday":"1999-8-26","HomeAddress":"天津市河西区宾馆南道海建里3门404号","Authority":"天津市公安局河西分局","ValidDate":"2020-9-11","ExpirationDate":"2030-9-11","Phone":"18526293826","Marriage":"未婚","Handedness":"右手","HouseholdType":"市内城镇","Diploma":"本科","Major":"计算机","EduStart":"17-Sep","EduEnd":"21-Jun","School":"天津师范大学","HomeContact":"赵津可","PostalCode":"300061","HomeTel":"18526293826","EmergentContact":"赵津可","EmergentPhone":"18526293826","PoliticalStatus":"群众","ContractExpDate":"21-Jan","BatchCode":"OA0001","AgentID":"null","CreateDate":"null","CreateUser":"null","ModifyDate":"null","ModifyUser":"null","isStop":"null"}]
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.AgentInputsController.Import(List`1 modelList) in C:\Users\jinkezhao.GWKF\Desktop\gms-web-admin-electron-vue-master\gms_admin_netcore\GMS.Api\Controllers\AgentInputsController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2020-11-10 10:32:12,339 [28] ERROR /api/AgentInputs/Import - path:/api/AgentInputs/Import,method:POST,data:[{"CardID":"120103199908266726","Name":"赵津可","Sex":"女","Nation":"汉","Birthday":"1999-8-26","HomeAddress":"天津市河西区宾馆南道海建里3门404号","Authority":"天津市公安局河西分局","ValidDate":"2020-9-11","ExpirationDate":"2030-9-11","Phone":"18526293826","Marriage":"未婚","Handedness":"右手","HouseholdType":"市内城镇","Diploma":"本科","Major":"计算机","EduStart":"17-Sep","EduEnd":"21-Jun","School":"天津师范大学","HomeContact":"赵津可","PostalCode":"300061","HomeTel":"18526293826","EmergentContact":"赵津可","EmergentPhone":"18526293826","PoliticalStatus":"群众","ContractExpDate":"21-Jan","BatchCode":"OA0001","AgentID":"null","CreateDate":"null","CreateUser":"null","ModifyDate":"null","ModifyUser":"null","isStop":"null"}]
+ error:Object reference not set to an instance of an object.
+ stack:   at GMS.Api.Controllers.AgentInputsController.Import(List`1 modelList) in C:\Users\jinkezhao.GWKF\Desktop\gms-web-admin-electron-vue-master\gms_admin_netcore\GMS.Api\Controllers\AgentInputsController.cs:line 80
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()

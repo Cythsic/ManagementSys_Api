@@ -1,0 +1,755 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GMS.Api</name>
+    </assembly>
+    <members>
+        <member name="T:GMS.Api.WebApiExceptionAttribute">
+            <summary>
+            异常捕获
+            </summary>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInfosController.GetAgentInfosByDeptCode(System.String)">
+            <summary>
+            查询所有字典类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInfosController.Add(GMS.Model.AgentInfos)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInfosController.Import(System.Collections.Generic.List{GMS.Model.AgentInfos})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInfosController.Edit(GMS.Model.AgentInfos)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInfosController.DeleteBatch(System.String)">
+            <summary>
+            批量删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInfosController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInputsController.SearchDict(System.String)">
+            <summary>
+            查询用户是否存在
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInputsController.Add(GMS.Model.AgentInputs)">
+            <summary>
+            添加用户,数据同步到面试表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInputsController.Import(System.Collections.Generic.List{GMS.Model.AgentInputs})">
+            <summary>
+            导入用户，数据同步到面试表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInputsController.Edit(GMS.Model.AgentInputs)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInputsController.Delete(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.AgentInputsController.DeleteBatch(System.String)">
+            <summary>
+            批量删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:GMS.Api.Controllers.AuthroizeController">
+            <summary>
+            认证
+            </summary>
+        </member>
+        <member name="M:GMS.Api.Controllers.AuthroizeController.Post(GMS.Api.LoginViewModel)">
+            <summary>
+            登录获取token
+            </summary>
+            <param name="loginViewModel">登录实体信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BatchesController.Add(GMS.Model.AgentInfos)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BatchesController.Import(System.Collections.Generic.List{GMS.Model.Batches})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BatchesController.Edit(GMS.Model.Batches)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BatchesController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BusRouteController.Add(GMS.Model.BusRoute)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BusRouteController.Import(System.Collections.Generic.List{GMS.Model.BusRoute})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BusRouteController.Edit(GMS.Model.BusRoute)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BusRouteController.UpdateBatch(System.Collections.Generic.List{GMS.Model.BusRoute})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BusRouteController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.BusRouteController.DeleteBatch(System.Collections.Generic.List{GMS.Model.BusRoute})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.Upload(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            上传图片
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.Add(GMS.Model.Canteen)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.Import(System.Collections.Generic.List{GMS.Model.Canteen})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.Edit(GMS.Model.Canteen)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.UpdateBatch(System.Collections.Generic.List{GMS.Model.Canteen})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CanteenController.DeleteBatch(System.Collections.Generic.List{GMS.Model.Canteen})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CheckInController.Add(GMS.Model.CheckIn)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CheckInController.Import(System.Collections.Generic.List{GMS.Model.CheckIn})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CheckInController.Edit(GMS.Model.CheckIn)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CheckInController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.CheckInController.DeleteBatch(System.String)">
+            <summary>
+            批量删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.SearchDictData(System.String)">
+            <summary>
+            查询字典数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.Add(GMS.Model.DictManage)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.Import(System.Collections.Generic.List{GMS.Model.DictManage})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.Edit(GMS.Model.DictManage)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.UpdateBatch(System.Collections.Generic.List{GMS.Model.DictManage})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.DeleteBatch(System.Collections.Generic.List{GMS.Model.DictManage})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictManageController.GetDictDataByType(System.String)">
+            <summary>
+            根据Type查询字典数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.GetAllDictList">
+            <summary>
+            查询所有字典类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.SearchDict(System.String)">
+            <summary>
+            查询所有字典类型
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.Add(GMS.Model.DictType)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.Import(System.Collections.Generic.List{GMS.Model.DictType})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.Edit(GMS.Model.DictType)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.UpdateBatch(System.Collections.Generic.List{GMS.Model.DictType})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.DictTypeController.DeleteBatch(System.Collections.Generic.List{GMS.Model.DictType})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HealthExamController.Add(GMS.Model.HealthExam)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HealthExamController.Import(System.Collections.Generic.List{GMS.Model.HealthExam})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HealthExamController.Edit(GMS.Model.HealthExam)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HealthExamController.UpdateBatch(System.Collections.Generic.List{GMS.Model.HealthExam})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HealthExamController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HealthExamController.DeleteBatch(System.Collections.Generic.List{GMS.Model.HealthExam})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRCardIDController.Add(GMS.Model.HR_CardID)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRCardIDController.Import(System.Collections.Generic.List{GMS.Model.HR_CardID})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRCardIDController.Edit(GMS.Model.HR_CardID)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRCardIDController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.Add(GMS.Model.HRInputs)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.Import(System.Collections.Generic.List{GMS.Model.HRInputs})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.Edit(GMS.Model.HRInputs)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.UpdateBatch(System.Collections.Generic.List{GMS.Model.HRInputs})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.DeleteBatch(System.String)">
+            <summary>
+            批量删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.Delete(System.Int32)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRInputsController.DeleteBatch(System.Collections.Generic.List{GMS.Model.HRInputs})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRUserController.Add(GMS.Model.HR_User)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRUserController.Import(System.Collections.Generic.List{GMS.Model.HR_User})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRUserController.Edit(GMS.Model.HR_User)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.HRUserController.Delete(System.Int64)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.InterviewController.Add(GMS.Model.Interview)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.InterviewController.Import(System.Collections.Generic.List{GMS.Model.Interview})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.InterviewController.Edit(GMS.Model.Interview)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.InterviewController.UpdateBatch(System.Collections.Generic.List{GMS.Model.Interview})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.InterviewController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.InterviewController.DeleteBatch(System.Collections.Generic.List{GMS.Model.Interview})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.GetMaintainData(System.String)">
+            <summary>
+            获取维修单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.Add(GMS.Model.MaintainRecord)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.Edit(GMS.Model.MaintainRecord)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.UpdateBatch(System.Collections.Generic.List{GMS.Model.MaintainRecord})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.Apply(System.String)">
+            <summary>
+            接单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.Reject(System.String)">
+            <summary>
+            撤单
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.MaintainRecordController.DeleteBatch(System.Collections.Generic.List{GMS.Model.MaintainRecord})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.GetChildList(System.String)">
+            <summary>
+            获取子部门列表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.Add(GMS.Model.Pub_Department)">
+            <summary>
+            添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.Edit(GMS.Model.Pub_Department)">
+            <summary>
+            编辑
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubDeptController.Delete(System.String)">
+            <summary>
+            删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.GetChildList(System.String)">
+            <summary>
+            获取子权限列表
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.Add(GMS.Model.Pub_Function)">
+            <summary>
+            添加
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.Edit(GMS.Model.Pub_Function)">
+            <summary>
+            编辑
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubFunctionController.Delete(System.String)">
+            <summary>
+            删除
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.GetPage(GMS.Api.Model.Request.PageDataReq)">
+            <summary>
+            获取角色分页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.Add(GMS.Model.Pub_Role)">
+            <summary>
+            添加角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.Edit(GMS.Model.Pub_Role)">
+            <summary>
+            编辑角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.Delete(System.Int64)">
+            <summary>
+            删除角色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.GetFunctions(System.String)">
+            <summary>
+            获取角色权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubRoleController.SaveFunctions(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            保存角色权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.GetPage(GMS.Api.Model.Request.PageDataReq)">
+            <summary>
+            获取用户分页
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.Add(GMS.Model.V_PubUser_Dept)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.Edit(GMS.Model.V_PubUser_Dept)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.Delete(System.Int64)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.GetFunctions(System.String)">
+            <summary>
+            获取用户权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.PubUserController.SaveFunctions(System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            保存用户权限
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.SearchWorkId">
+            <summary>
+            查询当前最大工号
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.Add(GMS.Model.WorkIDInfos)">
+            <summary>
+            添加用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.Import(System.Collections.Generic.List{GMS.Model.WorkIDInfos})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.Edit(GMS.Model.WorkIDInfos)">
+            <summary>
+            编辑用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.UpdateBatch(System.Collections.Generic.List{GMS.Model.WorkIDInfos})">
+            <summary>
+            批量更新员工信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.Delete(System.String)">
+            <summary>
+            删除用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Controllers.WorkIDInfosController.DeleteBatch(System.Collections.Generic.List{GMS.Model.WorkIDInfos})">
+            <summary>
+            导入用户
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:GMS.Api.JwtSeetings.Issuer">
+            <summary>
+            谁颁发的jwt
+            </summary>
+        </member>
+        <member name="P:GMS.Api.JwtSeetings.Audience">
+            <summary>
+            谁使用这个jwt
+            </summary>
+        </member>
+        <member name="P:GMS.Api.JwtSeetings.SecretKey">
+            <summary>
+            secret是保存在服务器端的，jwt的签发生成也是在服务器端的，secret就是用来进行jwt的签发和jwt的验证，
+            所以，它就是你服务端的私钥，在任何场景都不应该流露出去。一旦客户端得知这个secret, 那就意味着客户端是可以自我签发jwt了
+            通过jwt header中声明的加密方式进行加盐secret组合加密，然后就构成了jwt的第三部分
+            </summary>
+        </member>
+        <member name="P:GMS.Api.LoginViewModel.Name">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:GMS.Api.LoginViewModel.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:GMS.Api.ResponseObj`1.Code">
+            <summary>
+            0请求数据错误 1 成功 -1失败
+            </summary>
+        </member>
+        <member name="T:GMS.Api.QueryHelper">
+            <summary>
+            搜索条件
+            </summary>
+        </member>
+        <member name="M:GMS.Api.QueryHelper.GetWhereStr(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            获取搜索query
+            </summary>
+        </member>
+        <member name="M:GMS.Api.QueryHelper.SqlFilter(System.String)">
+            <summary>
+            过滤危险的字符（SQL注入）
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:GMS.Api.Startup.JWTConfig(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            使用 Microsoft.AspNetCore.Authentication.JwtBearer
+            </summary>
+            <param name="services"></param>
+        </member>
+        <!-- 对于成员“T:AuthTokenHeaderParameter”忽略有格式错误的 XML 注释 -->
+    </members>
+</doc>
